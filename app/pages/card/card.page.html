@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"
+         text="volver"
+         color="primary"
+         mode="ios"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Card</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Ej. Card</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card>
+   <ion-card-header class="encabezado">
+      <ion-card-subtitle style="color:black; font-weight: bold;">RegistrAPP!</ion-card-subtitle>
+      <ion-card-title style="color:black; font-weight: bold;">¿Que es?</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="contenido">
+      RegistrAPP! es una aplicacion que nos permite agilizar el registro de la asistencia; Como?, Muy sencillo, solo debes escanear el codigo QR presentado por el docente, y tu asistencia quedara registrada. Muy sencillo No?.
+    </ion-card-content>
+    <img src="assets/Codigo.jpg" class="ion-padding" style="background-color:aqua;">
+  </ion-card>
+
+
+
+</ion-content>
